@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.velocity.insurance.update.policydetails.PolicyDetails;
 import com.velocity.insurance.update.policydetails.repository.PolicyDetailsRepository;
-import com.velocity.insurance.update.policyschedule.service.PolicyDetailsService;
+
 
 @RestController
 public class PolicyDetailsController {
 
 	// inject the service here
 	@Autowired
-	private PolicyDetailsService policyDetailsService;
+	private com.velocity.insurance.update.policydetails.service1.PolicyDetailsService policyDetailsService;
 
 	// inject the repository reference
 	@Autowired

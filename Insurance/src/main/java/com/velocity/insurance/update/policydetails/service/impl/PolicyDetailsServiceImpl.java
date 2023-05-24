@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.velocity.insurance.update.policydetails.PolicyDetails;
 import com.velocity.insurance.update.policydetails.repository.PolicyDetailsRepository;
+import com.velocity.insurance.update.policydetails.service1.PolicyDetailsService;
 
 
 @Service
