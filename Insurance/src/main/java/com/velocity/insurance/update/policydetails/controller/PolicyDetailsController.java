@@ -1,6 +1,7 @@
 package com.velocity.insurance.update.policydetails.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -8,9 +9,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.velocity.insurance.policydetails.service.PolicyDetailsService;
 import com.velocity.insurance.update.policydetails.PolicyDetails;
 import com.velocity.insurance.update.policydetails.repository.PolicyDetailsRepository;
-import com.velocity.insurance.update.policyschedule.service.PolicyDetailsService;
+//import com.velocity.insurance.update.policyschedule.service.PolicyDetailsService;
 
 @RestController
 public class PolicyDetailsController {

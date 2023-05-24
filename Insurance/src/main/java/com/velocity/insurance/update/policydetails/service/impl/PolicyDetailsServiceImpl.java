@@ -1,11 +1,15 @@
 package com.velocity.insurance.update.policydetails.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
+
 import org.springframework.stereotype.Service;
 
+import com.velocity.insurance.policydetails.service.PolicyDetailsService;
 import com.velocity.insurance.update.policydetails.PolicyDetails;
+//import com.velocity.insurance.update.policydetails.controller.PolicyDetailsService;
 import com.velocity.insurance.update.policydetails.repository.PolicyDetailsRepository;
-import com.velocity.insurance.update.policyschedule.service.PolicyDetailsService;
+//import com.velocity.insurance.update.policyschedule.service.PolicyDetailsService;
 
 @Service
 public class PolicyDetailsServiceImpl implements PolicyDetailsService {
